@@ -16,6 +16,7 @@
 		8A1BF2DA22AB3E2D00EB8FF2 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1BF2D922AB3E2D00EB8FF2 /* Menu.swift */; };
 		8A1BF2DC22AB41B200EB8FF2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1BF2DB22AB41B200EB8FF2 /* Constants.swift */; };
 		8A1BF2DE22AB58FE00EB8FF2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1BF2DD22AB58FE00EB8FF2 /* DetailViewController.swift */; };
+		8A1BF2E122AD928F00EB8FF2 /* menu.json in Sources */ = {isa = PBXBuildFile; fileRef = 8A1BF2E022AD928F00EB8FF2 /* menu.json */; };
 		E306D14E8FE5912F2C225739 /* Pods_ServiciosCanvia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C0A9063837A36B9E83B2CD /* Pods_ServiciosCanvia.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		8A1BF2D922AB3E2D00EB8FF2 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		8A1BF2DB22AB41B200EB8FF2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8A1BF2DD22AB58FE00EB8FF2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8A1BF2E022AD928F00EB8FF2 /* menu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		9B64ABB0857792D78DFF69E4 /* Pods-ServiciosCanvia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServiciosCanvia.release.xcconfig"; path = "Pods/Target Support Files/Pods-ServiciosCanvia/Pods-ServiciosCanvia.release.xcconfig"; sourceTree = "<group>"; };
 		B7C0A9063837A36B9E83B2CD /* Pods_ServiciosCanvia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServiciosCanvia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 		8A1BF2BF22AB34BB00EB8FF2 /* ServiciosCanvia */ = {
 			isa = PBXGroup;
 			children = (
+				8A1BF2DF22AD925D00EB8FF2 /* Services */,
 				8A1BF2D622AB3A9C00EB8FF2 /* Cells */,
 				8A1BF2D522AB34E800EB8FF2 /* Storyboards */,
 				8A1BF2D422AB34E200EB8FF2 /* Controllers */,
@@ -130,6 +133,14 @@
 				8A1BF2D722AB3AE500EB8FF2 /* MenuTableViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		8A1BF2DF22AD925D00EB8FF2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8A1BF2E022AD928F00EB8FF2 /* menu.json */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		AEE805377467BCE70B067177 /* Frameworks */ = {
@@ -261,6 +272,7 @@
 				8A1BF2C122AB34BB00EB8FF2 /* AppDelegate.swift in Sources */,
 				8A1BF2DE22AB58FE00EB8FF2 /* DetailViewController.swift in Sources */,
 				8A1BF2DA22AB3E2D00EB8FF2 /* Menu.swift in Sources */,
+				8A1BF2E122AD928F00EB8FF2 /* menu.json in Sources */,
 				8A1BF2D822AB3AE500EB8FF2 /* MenuTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
