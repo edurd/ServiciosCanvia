@@ -12,9 +12,15 @@
 		8A1BF2C622AB34BB00EB8FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1BF2C422AB34BB00EB8FF2 /* Main.storyboard */; };
 		8A1BF2C822AB34BC00EB8FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1BF2C722AB34BC00EB8FF2 /* Assets.xcassets */; };
 		8A1BF2CB22AB34BC00EB8FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1BF2C922AB34BC00EB8FF2 /* LaunchScreen.storyboard */; };
+		8A1BF2D822AB3AE500EB8FF2 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1BF2D722AB3AE500EB8FF2 /* MenuTableViewCell.swift */; };
+		8A1BF2DA22AB3E2D00EB8FF2 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1BF2D922AB3E2D00EB8FF2 /* Menu.swift */; };
+		8A1BF2DC22AB41B200EB8FF2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1BF2DB22AB41B200EB8FF2 /* Constants.swift */; };
+		8A1BF2DE22AB58FE00EB8FF2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1BF2DD22AB58FE00EB8FF2 /* DetailViewController.swift */; };
+		E306D14E8FE5912F2C225739 /* Pods_ServiciosCanvia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C0A9063837A36B9E83B2CD /* Pods_ServiciosCanvia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		883825F3A177E6496B67C95E /* Pods-ServiciosCanvia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServiciosCanvia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ServiciosCanvia/Pods-ServiciosCanvia.debug.xcconfig"; sourceTree = "<group>"; };
 		8A1BF2BD22AB34BB00EB8FF2 /* ServiciosCanvia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServiciosCanvia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1BF2C022AB34BB00EB8FF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A1BF2C222AB34BB00EB8FF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,12 @@
 		8A1BF2C722AB34BC00EB8FF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A1BF2CA22AB34BC00EB8FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A1BF2CC22AB34BC00EB8FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1BF2D722AB3AE500EB8FF2 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		8A1BF2D922AB3E2D00EB8FF2 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		8A1BF2DB22AB41B200EB8FF2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8A1BF2DD22AB58FE00EB8FF2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9B64ABB0857792D78DFF69E4 /* Pods-ServiciosCanvia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServiciosCanvia.release.xcconfig"; path = "Pods/Target Support Files/Pods-ServiciosCanvia/Pods-ServiciosCanvia.release.xcconfig"; sourceTree = "<group>"; };
+		B7C0A9063837A36B9E83B2CD /* Pods_ServiciosCanvia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServiciosCanvia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E306D14E8FE5912F2C225739 /* Pods_ServiciosCanvia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		830B34CEAE9AA0EA6FBDE0D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				883825F3A177E6496B67C95E /* Pods-ServiciosCanvia.debug.xcconfig */,
+				9B64ABB0857792D78DFF69E4 /* Pods-ServiciosCanvia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8A1BF2B422AB34BB00EB8FF2 = {
 			isa = PBXGroup;
 			children = (
 				8A1BF2BF22AB34BB00EB8FF2 /* ServiciosCanvia */,
 				8A1BF2BE22AB34BB00EB8FF2 /* Products */,
+				830B34CEAE9AA0EA6FBDE0D4 /* Pods */,
+				AEE805377467BCE70B067177 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,66 @@
 		8A1BF2BF22AB34BB00EB8FF2 /* ServiciosCanvia */ = {
 			isa = PBXGroup;
 			children = (
+				8A1BF2D622AB3A9C00EB8FF2 /* Cells */,
+				8A1BF2D522AB34E800EB8FF2 /* Storyboards */,
+				8A1BF2D422AB34E200EB8FF2 /* Controllers */,
+				8A1BF2D322AB34DD00EB8FF2 /* Model */,
+				8A1BF2D222AB34D400EB8FF2 /* Util */,
 				8A1BF2C022AB34BB00EB8FF2 /* AppDelegate.swift */,
-				8A1BF2C222AB34BB00EB8FF2 /* ViewController.swift */,
-				8A1BF2C422AB34BB00EB8FF2 /* Main.storyboard */,
 				8A1BF2C722AB34BC00EB8FF2 /* Assets.xcassets */,
-				8A1BF2C922AB34BC00EB8FF2 /* LaunchScreen.storyboard */,
 				8A1BF2CC22AB34BC00EB8FF2 /* Info.plist */,
 			);
 			path = ServiciosCanvia;
+			sourceTree = "<group>";
+		};
+		8A1BF2D222AB34D400EB8FF2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8A1BF2DB22AB41B200EB8FF2 /* Constants.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		8A1BF2D322AB34DD00EB8FF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A1BF2D922AB3E2D00EB8FF2 /* Menu.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A1BF2D422AB34E200EB8FF2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A1BF2C222AB34BB00EB8FF2 /* ViewController.swift */,
+				8A1BF2DD22AB58FE00EB8FF2 /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8A1BF2D522AB34E800EB8FF2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8A1BF2C422AB34BB00EB8FF2 /* Main.storyboard */,
+				8A1BF2C922AB34BC00EB8FF2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8A1BF2D622AB3A9C00EB8FF2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8A1BF2D722AB3AE500EB8FF2 /* MenuTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AEE805377467BCE70B067177 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0A9063837A36B9E83B2CD /* Pods_ServiciosCanvia.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A1BF2CF22AB34BC00EB8FF2 /* Build configuration list for PBXNativeTarget "ServiciosCanvia" */;
 			buildPhases = (
+				26A978F2626BCBE83F8CB44C /* [CP] Check Pods Manifest.lock */,
 				8A1BF2B922AB34BB00EB8FF2 /* Sources */,
 				8A1BF2BA22AB34BB00EB8FF2 /* Frameworks */,
 				8A1BF2BB22AB34BB00EB8FF2 /* Resources */,
+				81F82F4548D1752F2D5F4CCF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +208,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26A978F2626BCBE83F8CB44C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ServiciosCanvia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81F82F4548D1752F2D5F4CCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ServiciosCanvia/Pods-ServiciosCanvia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServiciosCanvia/Pods-ServiciosCanvia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A1BF2B922AB34BB00EB8FF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A1BF2DC22AB41B200EB8FF2 /* Constants.swift in Sources */,
 				8A1BF2C322AB34BB00EB8FF2 /* ViewController.swift in Sources */,
 				8A1BF2C122AB34BB00EB8FF2 /* AppDelegate.swift in Sources */,
+				8A1BF2DE22AB58FE00EB8FF2 /* DetailViewController.swift in Sources */,
+				8A1BF2DA22AB3E2D00EB8FF2 /* Menu.swift in Sources */,
+				8A1BF2D822AB3AE500EB8FF2 /* MenuTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +405,7 @@
 		};
 		8A1BF2D022AB34BC00EB8FF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 883825F3A177E6496B67C95E /* Pods-ServiciosCanvia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +423,7 @@
 		};
 		8A1BF2D122AB34BC00EB8FF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B64ABB0857792D78DFF69E4 /* Pods-ServiciosCanvia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
